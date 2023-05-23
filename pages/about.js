@@ -23,7 +23,7 @@ const container = {
   },
 };
 
-export default function Home({ designers }) {
+export default function Home({ builders }) {
   return (
     <div className="container">
       <Head>
@@ -51,12 +51,12 @@ export default function Home({ designers }) {
         <p className="f1 extend">
           <motion.span variants={item}>place to showcase</motion.span>{" "}
           <motion.span variants={item}>the work of talented</motion.span>{" "}
-          <motion.span variants={item}>Brazilian designers to</motion.span>{" "}
+          <motion.span variants={item}>women and nonbinary builders to</motion.span>{" "}
           <motion.span variants={item}>the world. The goal</motion.span>{" "}
           <motion.span variants={item}>is to inspire new</motion.span>{" "}
-          <motion.span variants={item}>designers to diversify</motion.span>{" "}
+          <motion.span variants={item}>entrepeneurs to diversify</motion.span>{" "}
           <motion.span variants={item}>
-            their references, experienced designers
+            their references, experienced investors
           </motion.span>{" "}
           <motion.span variants={item}>
             to diversity their network, and companies to diversify their teams.
@@ -68,8 +68,8 @@ export default function Home({ designers }) {
         <div className="col-left">
           <h3>How can I nominate someone?</h3>
           <p>
-            If you know a Brazilian designer whose work or voice is valuable to
-            the design industry, please{" "}
+            If you know a women or nonbinary people whose work or voice is valuable to
+            the startup community, please{" "}
             <Link href="/nominate">
               <a className="link">fill out this form</a>
             </Link>{" "}
@@ -84,10 +84,10 @@ export default function Home({ designers }) {
 
           <h3>Why are featuring artists as well?</h3>
           <p>
-            We wanted to showcase not only contemporary Brazilian design, but
+            We wanted to source not only women and nonbinary investors, but
             also leverage all the visibility that this project is getting to
-            celebrate the history of design in our country. Every time you
-            reload the website there’s a new featured Brazilian designer you can
+            celebrate the breadth of builders in the community. Every time you
+            reload the website there’s a new featured builder you can
             learn more about.
           </p>
 
@@ -226,9 +226,9 @@ export default function Home({ designers }) {
           <h3>Why is my nomination taking so long to show?</h3>
           <p>
             We update this website once a week to include new names. To ensure a
-            healthy gender balance on this website, some nominations might take
-            longer to appear. In the meantime, try nominating a designer who
-            identifies as a woman or non-binary.
+            healthy diversity on this website, some nominations might take
+            longer to appear. In the meantime, try nominating a builder who
+            identifies as a minority or underrepresented group in the startup space.
           </p>
         </div>
 
